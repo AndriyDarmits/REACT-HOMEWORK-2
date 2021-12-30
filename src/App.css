@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+
+html{
+  box-sizing: border-box;
+  font-size: 14px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background: url("https://media.istockphoto.com/photos/round-podium-or-pedestal-with-blue-background-picture-id1226478932?b=1&k=20&m=1226478932&s=170667a&w=0&h=hXsvxQilNanpKx7QC_tIsFUOKPl8fdIDfJ_QSKXesGE=") center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  padding: 10px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.list{
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.checkbox{
+  border: 1px solid #000;
+  display: inline-block;
+  padding: 10px;
+  width: 150px;
+
+
+}
+.checkbox button{
+  margin-right: 10px;
+  display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+span{
+  font-weight: bold;
+  color: red;
 }
+
+.dotsToggle{
+  background-color: rgb(45, 158, 167);
+  border: 0;
+  transition: all 0.2s linear;
+  margin-bottom: 5px;
+  width: 100px;
+}
+
+.dotsToggle:hover{
+  background-color: rgb(14, 52, 61);
+}
+.input{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
